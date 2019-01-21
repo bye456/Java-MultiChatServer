@@ -14,16 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/ChatClient.java</name>
-			<type>1</type>
-			<location>D:/GoogleDrive/Schule/Chat/ChatClient.java</location>
-		</link>
-		<link>
-			<name>src/Tastatur.java</name>
-			<type>1</type>
-			<location>D:/GoogleDrive/Schule/Chat/Tastatur.java</location>
-		</link>
-	</linkedResources>
 </projectDescription>

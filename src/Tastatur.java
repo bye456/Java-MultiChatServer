@@ -8,7 +8,7 @@ public class Tastatur {
       return ' ';
     }
   }
-  
+
   public static int leseZahl ()   {
     try     {
       return Integer.parseInt (leseText ());
@@ -16,7 +16,7 @@ public class Tastatur {
       return 0;
     }
   }
-  
+
   public static double leseKommazahl ()   {
     try     {
       return Double.parseDouble (leseText ().replace (',', '.'));
@@ -28,8 +28,8 @@ public class Tastatur {
   public static String leseText ()   {
     try     {
       BufferedReader reader =
-      new BufferedReader (new InputStreamReader (System.in));
-      return reader.readLine ();
+        new BufferedReader (new InputStreamReader (System.in));
+        return reader.readLine ();
     }     catch (Exception e)     {
       return "";
     }
